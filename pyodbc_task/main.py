@@ -60,7 +60,20 @@ def main():
 
     database = DBManagement(login, password)
     while True:
-        choice = input("What would you like to do?\n=> ")
+        print(
+            """
+What would you like to do?
+    - 'Create Table'
+    - 'Delete Table'
+    - 'Add Row'
+    - 'Delete Row'
+    - 'Update Row' (currently not working)
+    - 'Display Data'
+    - 'Exit'
+        """
+        )
+
+        choice = input("=> ")
         if choice.lower() == "create table":
             table_name = input("Table Name: ")
             column_data = []
