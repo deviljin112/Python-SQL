@@ -28,7 +28,7 @@ class DBManagement(DatabaseConnect):
         self.connection.commit()
 
     def add_row(self, table, rows, values):
-        query = f"INSERT INTO {table} ({', '.join(rows)}) VALUES ({', '.join(values)};"
+        query = f"INSERT INTO {table} ({', '.join(rows)}) VALUES ({', '.join(values)});"
         with self.cursor.execute(query):
             print("Inserted successfully!")
         self.connection.commit()
@@ -50,7 +50,7 @@ class DBManagement(DatabaseConnect):
         with self.cursor.execute(query):
             row = self.cursor.fetchone()
             while row:
-                print(f"{str(row[0])}")
+                print(f"{str(row)}")
                 row = self.cursor.fetchone()
 
 
@@ -95,10 +95,8 @@ def main():
                         "What data would you like to add?\nInput one value at a time.\nSubmit with ENTER."
                     )
                     values = input("=> ")
-
-                    if values:
-                        values_data.append(values)
-                        i += 1
+                    values_data.append(f"'{values}'")
+                    i += 1
             database.add_row(table_name, rows, values_data)
 
         elif choice.lower() == "delete row":
@@ -110,11 +108,13 @@ def main():
         elif choice.lower() == "update row":
             table_name = input("Table Name: ")
             row_name = input("Column to update: ")
-            value_name = input("Value to update: ")
+            value_name = input("New Value: ")
             column_name = input("Which Column to look for: ")
-            where_value = input("What value to look for: ")
+            where_value = input("What Value to look for: ")
 
-            database.update_row(table_name, row_name, value_name, where_value)
+            database.update_row(
+                table_name, row_name, f"'{value_name}'", column_name, f"'{where_value}'"
+            )
 
         elif choice.lower() == "display data":
             table_name = input("Table Name: ")
