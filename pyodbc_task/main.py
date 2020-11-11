@@ -47,7 +47,7 @@ class DBManagement(DatabaseConnect):
 
     def display_data(self, table):
         query = f"SELECT * FROM {table};"
-        with self.cursor(query):
+        with self.cursor.execute(query):
             row = self.cursor.fetchone()
             while row:
                 print(f"{str(row[0])}")
