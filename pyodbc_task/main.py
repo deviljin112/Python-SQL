@@ -1,4 +1,5 @@
 import pyodbc
+import csv
 
 
 class DatabaseConnect:
@@ -57,6 +58,7 @@ class DBManagement(DatabaseConnect):
 def main():
     login = input("Login: ")
     password = input("Password: ")
+    table_name = input("Table Name: ")
 
     database = DBManagement(login, password)
     while True:
@@ -75,7 +77,7 @@ What would you like to do?
 
         choice = input("=> ")
         if choice.lower() == "create table":
-            table_name = input("Table Name: ")
+
             column_data = []
             while True:
                 print(
@@ -90,11 +92,11 @@ What would you like to do?
             database.create_table(table_name, column_data)
 
         elif choice.lower() == "delete table":
-            table_name = input("Table Name: ")
+
             database.delete_table(table_name)
 
         elif choice.lower() == "add row":
-            table_name = input("Table Name: ")
+
             print("What rows would you like to add to?\nSplit rows with a space")
             rows = input("=> ").split(" ")
 
@@ -113,13 +115,13 @@ What would you like to do?
             database.add_row(table_name, rows, values_data)
 
         elif choice.lower() == "delete row":
-            table_name = input("Table Name: ")
+
             column_name = input("Row Name: ")
             value_name = input("Value Name: ")
             database.delete_row(table_name, column_name, value_name)
 
         elif choice.lower() == "update row":
-            table_name = input("Table Name: ")
+
             row_name = input("Column to update: ")
             value_name = input("New Value: ")
             column_name = input("Which Column to look for: ")
@@ -130,7 +132,7 @@ What would you like to do?
             )
 
         elif choice.lower() == "display data":
-            table_name = input("Table Name: ")
+
             database.display_data(table_name)
 
         elif choice.lower() == "exit":
