@@ -1,6 +1,7 @@
 import pyodbc
 
 
+# Main class used for connecting to the database
 class DatabaseConnect:
     # Initialises the class with `login` and `password` variables
     def __init__(self, login, password):
@@ -17,6 +18,7 @@ class DatabaseConnect:
         self.cursor = self.connection.cursor()
 
 
+# Child class that inherits the connection initialisation
 class DBManagement(DatabaseConnect):
     def create_table(self, table, columns):
         # Table Syntax: <NAME>
@@ -134,6 +136,7 @@ What would you like to do?
                         "What data would you like to add?\nInput one value at a time.\nSubmit with ENTER."
                     )
                     values = input("=> ")
+                    # This f-string is used to match the SQL's formatting conventions
                     values_data.append(f"'{values}'")
                     i += 1
             database.add_row(table_name, rows, values_data)
