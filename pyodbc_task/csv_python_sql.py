@@ -50,7 +50,10 @@ class SQLMovies(DatabaseConnect):
                         movie[i] = f"'{movie[i]}'"
 
             query = f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES ({', '.join(movie)})"
-            self.cursor.execute(query)
+            try:
+                self.cursor.execute(query)
+            except:
+                success = False
         if success:
             print("Data Inserted Successfully!")
         else:
@@ -133,6 +136,8 @@ def main():
     except:
         previously_executed = False
 
+    print(previously_executed)
+
     movies = test.get_movie_data()
     column = movies[0]
     movie_data = movies[1:]
@@ -147,48 +152,48 @@ def main():
         except:
             print("Table exists! Skipping")
         finally:
-            test.insert_data(table_name, column, movie_data)
+            if not previously_executed:
+                test.insert_data(table_name, column, movie_data)
 
-    else:
-        while True:
+    while True:
+        print(
+            """
+What would you like to do?
+    - 'Display' all movies
+    - 'Add' a movie
+    - 'Find' specific movie
+    - 'Exit' the program
+"""
+        )
+        choice = input("=> ")
+
+        if choice.lower() == "display":
+            test.display(table_name)
+
+        elif choice.lower() == "find":
+            movie_name = input("What the movie name?\n=> ")
+            test.find(table_name, movie_name)
+
+        elif choice.lower() == "add":
             print(
-                """
-    What would you like to do?
-        - 'Display' all movies
-        - 'Add' a movie
-        - 'Find' specific movie
-        - 'Exit' the program
-    """
+                f"""
+Please fill in the following data:
+{", ".join(column)}
+Submitting each column with ENTER
+"""
             )
-            choice = input("=> ")
+            user_data = []
+            for i in range(len(column)):
+                user_input = input("=> ")
 
-            if choice.lower() == "display":
-                test.display(table_name)
+                if "INT" in column_data[i]:
+                    user_input = int(user_input)
 
-            elif choice.lower() == "find":
-                movie_name = input("What the movie name?\n=> ")
-                test.find(table_name, movie_name)
-
-            elif choice.lower() == "add":
-                print(
-                    f"""
-    Please fill in the following data:
-    {", ".join(column)}
-    Submitting each column with ENTER
-    """
-                )
-                user_data = []
-                for i in range(len(column)):
-                    user_input = input("=> ")
-
-                    if "INT" in column_data[i]:
-                        user_input = int(user_input)
-
-                    user_data.append(user_input)
-            elif choice.lower() == "exit":
-                break
-            else:
-                print("Thats not a valid option!")
+                user_data.append(user_input)
+        elif choice.lower() == "exit":
+            break
+        else:
+            print("Thats not a valid option!")
 
 
 if __name__ == "__main__":

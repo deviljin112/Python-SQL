@@ -15,7 +15,7 @@ movie,Children of the Green Dragon,A z√∂ld s√°rk√°ny gyermekei,0,2010,
 tvSeries,Edinburgh Nights,Edinburgh Nights,0,2014,\N,29,\N
 movie,T.G.M. - osvoboditel,T.G.M. - osvoboditel,0,2018,\N,60,Documentary
 movie,The Tragedy of Man,Az ember trag√©di√°ja,0,2011,\N,160,"Animation,Drama,History"
-movie,How Huang Fei-hong Rescued the Orphan from the Tiger's Den,How Huang Fei-hong Rescued the Orphan from the Tiger's Den,0,2011,\N,\N,\N
+movie,How Huang Fei-hong Rescued the Orphan from the Tigers Den,How Huang Fei-hong Rescued the Orphan from the Tigers Den,0,2011,\N,\N,\N
 movie,Bande de cons!,Bande de cons!,0,2018,\N,82,Drama
 tvSeries,First Take,First Take,0,2017,\N,\N,\N
 video,Flexing with Monty,Flexing with Monty,0,2010,\N,90,"Comedy,Drama,Horror"
@@ -33,10 +33,10 @@ movie,In Memoriam Alfons Vranckx,Le Saigneur est avec nous,0,2018,\N,90,"Action,
 short,Reading Between the Lines,Reading Between the Lines,0,2017,\N,36,"Documentary,Drama,Short"
 tvSeries,TV2 hjelper deg,TV2 hjelper deg,0,2018,\N,25,\N
 tvSeries,The Di Palma Forum at UNLV,The Di Palma Forum at UNLV,0,2012,\N,\N,\N
-video,Ha-Kosem Me'eretz Utz Hamachzemer,Ha-Kosem Me'eretz Utz Hamachzemer,0,2015,\N,58,"Family,Musical"
+video,Ha-Kosem Meeretz Utz Hamachzemer,Ha-Kosem Meeretz Utz Hamachzemer,0,2015,\N,58,"Family,Musical"
 movie,To Chase a Million,To Chase a Million,0,2018,\N,97,"Action,Drama"
 movie,Short Time Heroes,Kurzzeithelden,0,2015,\N,45,Sci-Fi
-movie,Life's a Beach,Life's a Beach,0,2012,\N,100,Comedy
+movie,Lifes a Beach,Lifes a Beach,0,2012,\N,100,Comedy
 movie,Dark Blood,Dark Blood,0,2012,\N,86,Thriller
 movie,Neeyum Naanum,Neeyum Naanum,0,2018,\N,136,\N
 movie,Snowblind,Snowblind,0,2015,\N,\N,"Crime,Drama"
@@ -86,7 +86,7 @@ movie,The Three Stooges,The Three Stooges,0,2012,\N,92,"Comedy,Family"
 tvMiniSeries,The Crimson Petal and the White,The Crimson Petal and the White,0,2011,\N,274,"Drama,Romance"
 movie,Motherless Brooklyn,Motherless Brooklyn,0,2019,\N,\N,"Crime,Drama"
 video,Young Alexander the Great,Young Alexander the Great,0,2010,\N,90,"Action,Adventure,Mystery"
-movie,Anderson's Cross,Anderson's Cross,0,2010,\N,98,"Comedy,Drama,Romance"
+movie,Andersons Cross,Andersons Cross,0,2010,\N,98,"Comedy,Drama,Romance"
 tvEpisode,Helicopters,Helicopters,0,2010,\N,44,"Documentary,History"
 movie,Den milde smerte,Den milde smerte,0,2010,\N,280,Drama
 tvSeries,Local 2 News,News2Houston,0,2013,\N,\N,News
@@ -99,7 +99,6 @@ movie,Burnt by the Sun 2,Utomlennye solntsem 2,0,2010,\N,181,"Drama,War"
 movie,Action Jackson,Action Jackson,0,2014,\N,144,Action
 movie,Gambit,Gambit,0,2012,\N,89,"Comedy,Crime"
 movie,Bubbles,Bubbles,0,2011,\N,80,Drama
-video,11:11,11:11,0,2011,\N,\N,"Crime,Drama"
 movie,Seven Fallen Objects,Seven Fallen Objects,0,2011,\N,90,"Comedy,Drama"
 movie,In Secret,In Secret,0,2013,\N,107,"Crime,Drama,Thriller"
 movie,Cowboys & Aliens,Cowboys & Aliens,0,2011,\N,119,"Action,Sci-Fi,Thriller"
@@ -128,7 +127,7 @@ video,Monster Mountain,Monster Mountain,0,2012,\N,91,"Horror,Sci-Fi"
 movie,Real Steel,Real Steel,0,2011,\N,127,"Action,Drama,Family"
 movie,Satin,Satin,0,2011,\N,84,"Comedy,Drama,Music"
 movie,Caleuche: El llamado del Mar,Caleuche: El llamado del Mar,0,2012,\N,100,"Drama,Fantasy,Horror"
-movie,L'apocalisse delle scimmie,L'apocalisse delle scimmie,0,2012,\N,\N,Drama
+movie,Lapocalisse delle scimmie,Lapocalisse delle scimmie,0,2012,\N,\N,Drama
 movie,The Giver,The Giver,0,2014,\N,97,"Drama,Romance,Sci-Fi"
 movie,Toy Story 3,Toy Story 3,0,2010,\N,103,"Adventure,Animation,Comedy"
 movie,Project x27,The Devil Inside,0,2010,\N,\N,"Horror,Thriller"
@@ -176,7 +175,7 @@ video,One Step Beyond,One Step Beyond,0,2012,\N,56,Documentary
 movie,Drunkboat,Drunkboat,0,2010,\N,98,Drama
 movie,The Grasslands,The Grasslands,0,2011,\N,114,Drama
 movie,The Only Living Boy in New York,The Only Living Boy in New York,0,2017,\N,89,Drama
-movie,Texxas Jam '78,Texxas Jam '78,0,2012,\N,60,Documentary
+movie,Texxas Jam 78,Texxas Jam 78,0,2012,\N,60,Documentary
 short,Career Day,Career Day,0,2016,\N,8,"Comedy,Family,Short"
 movie,Saving Private Perez,Salvando al Soldado P√©rez,0,2011,\N,105,"Adventure,Comedy,Western"
 movie,Steve Phoenix: The Untold Story,Steve Phoenix: The Untold Story,0,2012,\N,110,Drama
@@ -274,7 +273,7 @@ tvEpisode,X√¥ Perereca,X√¥ Perereca,0,2010,\N,32,Comedy
 tvEpisode,Death Climb,Death Climb,0,2011,\N,42,"Biography,Documentary,Drama"
 tvEpisode,The Ego Show,The Ego Show,0,2014,\N,\N,"Comedy,Drama"
 tvEpisode,Episode #1.16,Episode #1.16,0,2012,\N,\N,"Comedy,News,Talk-Show"
-movie,Who Is Harry Nilsson (And Why Is Everybody Talkin' About Him?),Who Is Harry Nilsson (And Why Is Everybody Talkin' About Him?),0,2010,\N,116,"Biography,Documentary,Music"
+movie,Who Is Harry Nilsson (And Why Is Everybody Talkin About Him?),Who Is Harry Nilsson (And Why Is Everybody Talkin About Him?),0,2010,\N,116,"Biography,Documentary,Music"
 movie,Love & Other Drugs,Love & Other Drugs,0,2010,\N,112,"Comedy,Drama,Romance"
 movie,Syrup,Syrup,0,2013,\N,90,"Comedy,Drama,Romance"
 movie,A Thousand Words,A Thousand Words,0,2012,\N,91,"Comedy,Drama"
@@ -286,7 +285,7 @@ movie,Waste of Space,Waste of Space,0,2010,\N,78,"Adventure,Comedy,Sci-Fi"
 tvEpisode,Episode #5.45,Episode #5.45,0,2011,\N,\N,Drama
 movie,Me and My Umbrella,Eu e Meu Guarda-Chuva,0,2010,\N,78,"Family,Fantasy"
 movie,Night of the Templar,Night of the Templar,0,2013,\N,101,"Horror,Mystery"
-movie,What's Your Number?,What's Your Number?,0,2011,\N,106,"Comedy,Romance"
+movie,Whats Your Number?,Whats Your Number?,0,2011,\N,106,"Comedy,Romance"
 movie,California Indian,California Indian,0,2011,\N,90,Drama
 movie,King of the Avenue,King of the Avenue,0,2010,\N,83,"Drama,Fantasy,Thriller"
 movie,Samsara,Samsara,0,2011,\N,102,"Documentary,Music"
@@ -297,7 +296,7 @@ movie,Kill,Kill,0,2011,\N,90,"Comedy,Horror,Thriller"
 movie,The Chosen Heaven,El cielo elegido,0,2010,\N,123,"Drama,Thriller"
 movie,Cell,Cell,0,2016,\N,98,"Action,Drama,Horror"
 movie,The Rain Fairy,Destov√° v√≠la,0,2010,\N,100,"Family,Fantasy"
-movie,The Illusionist,L'illusionniste,0,2010,\N,80,"Animation,Drama"
+movie,The Illusionist,Lillusionniste,0,2010,\N,80,"Animation,Drama"
 movie,Night Catches Us,Night Catches Us,0,2010,\N,90,"Drama,Romance"
 movie,Drive,Drive,0,2011,\N,100,"Crime,Drama"
 tvSeries,The Being Experience: The Prologue,In the Woods,0,2013,\N,100,Mystery
@@ -325,7 +324,7 @@ movie,Wilde Salom√©,Wilde Salom√©,0,2011,\N,95,"Documentary,Drama"
 movie,Scary Movie 5,Scary Movie 5,0,2013,\N,86,Comedy
 movie,13,13,0,2010,\N,91,"Drama,Thriller"
 video,Carnies,Carnies,0,2010,\N,82,"Horror,Thriller"
-tvMovie,For Love of Liberty: The Story of America's Black Patriots,For Love of Liberty: The Story of America's Black Patriots,0,2010,\N,115,Documentary
+tvMovie,For Love of Liberty: The Story of Americas Black Patriots,For Love of Liberty: The Story of Americas Black Patriots,0,2010,\N,115,Documentary
 movie,The Guardians,The Guardians,0,2010,\N,88,"Comedy,Family"
 movie,Ironmen,Ironmen,0,2010,\N,119,"Biography,Drama"
 tvSeries,The Sports Reporters,The Sports Reporters,0,2016,\N,60,Talk-Show
@@ -334,9 +333,9 @@ movie,Nemesis,Nemesis,0,2010,\N,83,Drama
 movie,Thor,Thor,0,2011,\N,115,"Action,Adventure,Fantasy"
 movie,Red Dog,Red Dog,0,2011,\N,92,"Biography,Comedy,Drama"
 movie,Warcraft,Warcraft,0,2016,\N,123,"Action,Adventure,Fantasy"
-movie,Devil's Knot,Devil's Knot,0,2013,\N,114,"Biography,Crime,Drama"
+movie,Devils Knot,Devils Knot,0,2013,\N,114,"Biography,Crime,Drama"
 movie,Folk!,Folk!,0,2010,\N,\N,Documentary
-movie,It's Kind of a Funny Story,It's Kind of a Funny Story,0,2010,\N,101,"Comedy,Drama,Romance"
+movie,Its Kind of a Funny Story,Its Kind of a Funny Story,0,2010,\N,101,"Comedy,Drama,Romance"
 movie,The Mule,La mula,0,2013,\N,100,"Comedy,Drama"
 movie,Spoon,Spoon,0,2011,\N,\N,"Action,Drama,Fantasy"
 movie,A Letter to Elia,A Letter to Elia,0,2010,\N,60,Documentary
@@ -356,7 +355,7 @@ movie,American Flyer,American Flyer,0,2010,\N,100,Adventure
 movie,Percy Jackson & the Olympians: The Lightning Thief,Percy Jackson & the Olympians: The Lightning Thief,0,2010,\N,118,"Adventure,Family,Fantasy"
 movie,Art Officially Favored,Art Officially Favored,0,2019,\N,90,"Biography,Documentary,Fantasy"
 movie,Ashes,Ashes,0,2010,\N,\N,Drama
-movie,She's Out of My League,She's Out of My League,0,2010,\N,104,"Comedy,Romance"
+movie,Shes Out of My League,Shes Out of My League,0,2010,\N,104,"Comedy,Romance"
 movie,Card Subject to Change,Card Subject to Change,0,2010,\N,87,Documentary
 movie,The Book Thief,The Book Thief,0,2013,\N,131,"Drama,War"
 movie,Conan the Barbarian,Conan the Barbarian,0,2011,\N,113,"Action,Adventure,Fantasy"
@@ -364,7 +363,7 @@ movie,Shanghai Hotel,Shanghai Hotel,0,2011,\N,110,Drama
 movie,Interstellar,Interstellar,0,2014,\N,169,"Adventure,Drama,Sci-Fi"
 movie,World War Z,World War Z,0,2013,\N,116,"Action,Adventure,Horror"
 movie,Flipped,Flipped,0,2010,\N,90,"Comedy,Drama,Romance"
-movie,Valentine's Day,Valentine's Day,0,2010,\N,125,"Comedy,Romance"
+movie,Valentines Day,Valentines Day,0,2010,\N,125,"Comedy,Romance"
 movie,The Power of Few,The Power of Few,0,2013,\N,96,"Action,Crime,Drama"
 movie,Dreamkiller,Dreamkiller,0,2010,\N,110,Thriller
 movie,Soupernatural,Soupernatural,0,2010,\N,\N,Drama
@@ -385,7 +384,7 @@ movie,Land,Land,0,2010,\N,76,Documentary
 movie,The Babymakers,The Babymakers,0,2012,\N,95,Comedy
 movie,Electric Slide,Electric Slide,0,2014,\N,95,"Action,Biography,Crime"
 movie,Krystal,Krystal,0,2017,\N,90,"Comedy,Drama"
-movie,Pee-wee's Big Holiday,Pee-wee's Big Holiday,0,2016,\N,90,"Adventure,Comedy,Family"
+movie,Pee-wees Big Holiday,Pee-wees Big Holiday,0,2016,\N,90,"Adventure,Comedy,Family"
 movie,Approaching Midnight,Approaching Midnight,0,2013,\N,86,"Crime,Drama,Romance"
 movie,Hotel Transylvania,Hotel Transylvania,0,2012,\N,91,"Animation,Comedy,Family"
 movie,Pet Sematary,Pet Sematary,0,2019,\N,\N,Horror
@@ -398,7 +397,7 @@ movie,R√≠o de oro,R√≠o de oro,0,2010,\N,\N,Western
 movie,Whatever Happened to Pete Blaggit?,Whatever Happened to Pete Blaggit?,0,2012,\N,94,"Comedy,Sci-Fi"
 movie,The Kids Are All Right,The Kids Are All Right,0,2010,\N,106,"Comedy,Drama,Romance"
 movie,The Fallen Word,The Fallen Word,0,2013,\N,60,"Drama,Fantasy,Mystery"
-movie,Ivan Mosjoukine ou L'enfant du carnaval,Ivan Mosjoukine ou L'enfant du carnaval,0,2016,\N,67,Documentary
+movie,Ivan Mosjoukine ou Lenfant du carnaval,Ivan Mosjoukine ou Lenfant du carnaval,0,2016,\N,67,Documentary
 movie,Killer by Nature,Killer by Nature,0,2010,\N,94,"Adventure,Crime,Drama"
 movie,Pox,Pox,0,2011,\N,100,"Comedy,Sci-Fi"
 movie,Hoodwinked Too! Hood vs. Evil,Hoodwinked Too! Hood vs. Evil,0,2011,\N,86,"Animation,Comedy,Crime"
@@ -447,7 +446,7 @@ movie,Red State,Red State,0,2011,\N,88,"Action,Crime,Horror"
 movie,The Dot Man,The Dot Man,0,2017,\N,\N,"Drama,Thriller"
 movie,Beijing Taxi,Beijing Taxi,0,2010,\N,78,Documentary
 movie,The Secret Philosophy,The Secret Philosophy,0,2010,\N,90,Thriller
-movie,Rain Falls from Earth: Surviving Cambodia's Darkest Hour,Rain Falls from Earth: Surviving Cambodia's Darkest Hour,0,2011,\N,\N,Documentary
+movie,Rain Falls from Earth: Surviving Cambodias Darkest Hour,Rain Falls from Earth: Surviving Cambodias Darkest Hour,0,2011,\N,\N,Documentary
 movie,Rift,Rift,0,2011,\N,100,"Horror,Thriller"
 movie,Bury the Hatchet,Bury the Hatchet,0,2010,\N,120,Documentary
 movie,Ch√ªshingura,Ch√ªshingura,0,2016,\N,76,\N
@@ -455,7 +454,7 @@ movie,Bulletface,Bulletface,0,2010,\N,82,Thriller
 movie,First Circle,First Circle,0,2010,\N,72,Documentary
 movie,Jewtopia,Jewtopia,0,2012,\N,90,"Comedy,Romance"
 movie,Please Give,Please Give,0,2010,\N,87,"Comedy,Drama"
-movie,Harm's Way,Harm's Way,0,2010,\N,82,Thriller
+movie,Harms Way,Harms Way,0,2010,\N,82,Thriller
 movie,Torn,Torn,0,2010,\N,\N,Thriller
 movie,Eat Pray Love,Eat Pray Love,0,2010,\N,133,"Drama,Romance"
 movie,Mama I Want to Sing,Mama I Want to Sing,0,2011,\N,100,Musical
@@ -465,7 +464,7 @@ movie,Snitch,Snitch,0,2013,\N,112,"Action,Drama,Thriller"
 tvMovie,Mr. Hockey: The Gordie Howe Story,Mr. Hockey: The Gordie Howe Story,0,2013,\N,87,"Biography,Drama,Sport"
 movie,Wreckage,Wreckage,0,2010,\N,87,"Horror,Thriller"
 movie,Drain Baby,Drain Baby,0,2011,\N,\N,Horror
-movie,Legends of Oz: Dorothy's Return,Legends of Oz: Dorothy's Return,0,2013,\N,88,"Adventure,Animation,Family"
+movie,Legends of Oz: Dorothys Return,Legends of Oz: Dorothys Return,0,2013,\N,88,"Adventure,Animation,Family"
 movie,The Wedding Ringer,The Wedding Ringer,0,2015,\N,101,Comedy
 tvMovie,Medium Raw: Night of the Wolf,Medium Raw: Night of the Wolf,0,2010,\N,100,"Fantasy,Thriller"
 movie,Hyenas,Hyenas,0,2011,\N,92,Horror
@@ -483,7 +482,7 @@ movie,Blur,Blur,0,2011,\N,90,"Drama,Mystery,Thriller"
 movie,From Prada to Nada,From Prada to Nada,0,2011,\N,107,"Comedy,Drama,Romance"
 movie,The Whistleblower,The Whistleblower,0,2010,\N,112,"Action,Biography,Crime"
 video,Between the Sand and the Sky,Between the Sand and the Sky,0,2014,\N,4,"Adventure,Romance,Western"
-movie,Don't Fade Away,Don't Fade Away,0,2010,\N,89,Drama
+movie,Dont Fade Away,Dont Fade Away,0,2010,\N,89,Drama
 movie,The Key Man,The Key Man,0,2011,\N,80,"Crime,Drama,Thriller"
 movie,Suite Fran√ßaise,Suite Fran√ßaise,0,2014,\N,107,"Drama,Romance,War"
 movie,Psych:9,Psych:9,0,2010,\N,98,"Horror,Mystery,Thriller"
@@ -495,18 +494,18 @@ short,Red Princess Blues,Red Princess Blues,0,2010,\N,11,"Action,Short,Thriller"
 movie,Westbrick Murders,Westbrick Murders,0,2010,\N,90,"Action,Crime,Thriller"
 movie,The Hobbit: An Unexpected Journey,The Hobbit: An Unexpected Journey,0,2012,\N,169,"Adventure,Family,Fantasy"
 movie,Love & Mercy,Love & Mercy,0,2014,\N,121,"Biography,Drama,Music"
-video,Blood: A Butcher's Tale,Blood: A Butcher's Tale,0,2010,\N,\N,Horror
+video,Blood: A Butchers Tale,Blood: A Butchers Tale,0,2010,\N,\N,Horror
 movie,The Thing,The Thing,0,2011,\N,103,"Horror,Mystery,Sci-Fi"
 movie,The Grind,The Grind,0,2012,\N,85,"Crime,Thriller"
-movie,The Unlikely's,The Unlikely's,0,2016,\N,\N,Comedy
+movie,The Unlikelys,The Unlikelys,0,2016,\N,\N,Comedy
 tvEpisode,"The $10,000 Gift","The $10,000 Gift",0,2010,\N,\N,Romance
 movie,Black Butterflies,Black Butterflies,0,2011,\N,100,"Biography,Drama"
 movie,Prey,Proie,0,2010,\N,90,"Adventure,Drama,Horror"
 video,N.Y.C. Underground,N.Y.C. Underground,0,2013,\N,87,"Action,Thriller"
 movie,Eager to Die,Eager to Die,0,2010,\N,109,"Drama,Thriller"
 movie,Exposed,Exposed,0,2012,\N,82,"Drama,Mystery,Thriller"
-movie,A Merry Friggin' Christmas,A Merry Friggin' Christmas,0,2014,\N,88,Comedy
-movie,Movin' In,Movin' In,0,2010,\N,95,"Comedy,Romance"
+movie,A Merry Friggin Christmas,A Merry Friggin Christmas,0,2014,\N,88,Comedy
+movie,Movin In,Movin In,0,2010,\N,95,"Comedy,Romance"
 tvMiniSeries,Bloodletting & Miraculous Cures,Bloodletting & Miraculous Cures,0,2010,\N,60,Drama
 movie,House Under Siege,House Under Siege,0,2010,\N,78,"Action,Thriller"
 movie,Monkeyman935,Monkeyman935,0,2010,\N,\N,Horror
@@ -525,7 +524,7 @@ movie,Truth About Kerry,Truth About Kerry,0,2010,\N,84,"Drama,Mystery,Thriller"
 movie,Pizza with Bullets,Pizza with Bullets,0,2010,\N,99,Comedy
 movie,Harry Potter and the Deathly Hallows: Part 1,Harry Potter and the Deathly Hallows: Part 1,0,2010,\N,146,"Adventure,Family,Fantasy"
 movie,Road to Red,Road to Red,0,2016,\N,120,"Action,Adventure,Thriller"
-movie,White Men Can't Dance,White Men Can't Dance,0,2012,\N,105,"Drama,Family"
+movie,White Men Cant Dance,White Men Cant Dance,0,2012,\N,105,"Drama,Family"
 tvSeries,Shooting Gallery,Shooting Gallery,0,2011,\N,\N,\N
 tvEpisode,Celebrity Mastermind 2009/2010: Episode 5,Celebrity Mastermind 2009/2010: Episode 5,0,2010,\N,28,Game-Show
 movie,The Penthouse,The Penthouse,0,2010,\N,89,Comedy
@@ -538,7 +537,7 @@ movie,The Waiter,The Waiter,0,2010,\N,92,"Action,Crime,Drama"
 movie,Rabbit Hole,Rabbit Hole,0,2010,\N,91,Drama
 tvEpisode,Garage Alone/Camp Happy Helpers,Garage Alone/Camp Happy Helpers,0,2017,\N,22,"Adventure,Animation,Comedy"
 movie,Joe Dick,Joe Dick,0,2017,\N,96,Comedy
-movie,The Devil's Flower,Tsvetok dyavola,0,2010,\N,90,"Mystery,Romance"
+movie,The Devils Flower,Tsvetok dyavola,0,2010,\N,90,"Mystery,Romance"
 movie,The Last Airbender,The Last Airbender,0,2010,\N,103,"Action,Adventure,Family"
 movie,Freaky Deaky,Freaky Deaky,0,2012,\N,90,"Comedy,Crime,Thriller"
 movie,Silent Hill: Revelation,Silent Hill: Revelation,0,2012,\N,95,Horror
@@ -571,13 +570,13 @@ movie,The Trouble with Cali,The Trouble with Cali,0,2012,\N,\N,Comedy
 movie,The House of Sun,Dom Solntsa,0,2010,\N,110,Drama
 movie,Made in Romania,Made in Romania,0,2010,\N,95,Comedy
 movie,Feast of the Assumption: BTK and the Otero Family Murders,Feast of the Assumption: The Otero Family Murders,0,2010,\N,86,"Crime,Documentary"
-movie,The Sorcerer's Apprentice,The Sorcerer's Apprentice,0,2010,\N,109,"Action,Adventure,Family"
+movie,The Sorcerers Apprentice,The Sorcerers Apprentice,0,2010,\N,109,"Action,Adventure,Family"
 movie,The Fighter,The Fighter,0,2010,\N,116,"Biography,Drama,Sport"
-movie,Pushin' Up Daisies,Pushin' Up Daisies,0,2010,\N,87,Comedy
+movie,Pushin Up Daisies,Pushin Up Daisies,0,2010,\N,87,Comedy
 tvSeries,Bubble Guppies,Bubble Guppies,0,2011,2019,24,"Animation,Comedy,Family"
 movie,Have You Heard from Johannesburg: Hell of a Job,Have You Heard from Johannesburg: Hell of a Job,0,2010,\N,57,Documentary
 movie,Have You Heard from Johannesburg: Road to Resistance,Have You Heard from Johannesburg: Road to Resistance,0,2010,\N,65,Documentary
-movie,L'imbroglio nel lenzuolo,L'imbroglio nel lenzuolo,0,2010,\N,105,"Comedy,Romance"
+movie,Limbroglio nel lenzuolo,Limbroglio nel lenzuolo,0,2010,\N,105,"Comedy,Romance"
 movie,The Conspirator,The Conspirator,0,2010,\N,122,"Crime,Drama,History"
 movie,Little Witch on a Broomstick,Sax√°na a Lexikon kouzel,0,2011,\N,90,"Animation,Comedy,Family"
 movie,Strange Frame: Love & Sax,Strange Frame: Love & Sax,0,2012,\N,98,"Animation,Crime,Music"
@@ -614,7 +613,7 @@ movie,Heredity,Heredity,0,2010,\N,\N,"Horror,Thriller"
 movie,Funkytown,Funkytown,0,2011,\N,132,Drama
 movie,The Unwanted,The Unwanted,0,2013,\N,95,"Drama,Thriller"
 movie,The Adventures of Tintin,The Adventures of Tintin,0,2011,\N,107,"Action,Adventure,Animation"
-movie,You're Nobody 'til Somebody Kills You,You're Nobody 'til Somebody Kills You,0,2012,\N,86,"Horror,Thriller"
+movie,Youre Nobody til Somebody Kills You,Youre Nobody til Somebody Kills You,0,2012,\N,86,"Horror,Thriller"
 movie,El Padrino II: Border Intrusion,El Padrino II: Border Intrusion,0,2011,\N,90,Crime
 movie,A Dance for Grace,A Dance for Grace,0,2010,\N,\N,Drama
 movie,Multiple Sarcasms,Multiple Sarcasms,0,2010,\N,97,Drama
@@ -686,13 +685,13 @@ tvSeries,Di√°rio do Olivier,Di√°rio do Olivier,0,2016,2017,\N,Family
 movie,Deer Season,Deer Season,0,2015,\N,92,Thriller
 movie,Rising Star,Rising Star,0,2010,\N,98,Drama
 movie,The Way Back,The Way Back,0,2010,\N,133,"Adventure,Drama,History"
-movie,Where's My Stuff?,Where's My Stuff?,0,2011,\N,85,Comedy
+movie,Wheres My Stuff?,Wheres My Stuff?,0,2011,\N,85,Comedy
 movie,Kingshighway,Kingshighway,0,2010,\N,\N,Crime
 movie,Programming the Nation?,Programming the Nation?,0,2011,\N,105,Documentary
 movie,Argo,Argo,0,2012,\N,120,"Biography,Drama,Thriller"
 movie,Session,Session,0,2011,\N,89,Drama
 short,8 Butterflies,8 Butterflies,0,2010,\N,17,"Drama,Horror,Short"
-movie,The People I've Slept With,The People I've Slept With,0,2012,\N,89,Comedy
+movie,The People Ive Slept With,The People Ive Slept With,0,2012,\N,89,Comedy
 movie,Gunned Down,Gunned Down,0,2017,\N,95,"Action,Thriller"
 movie,Palominas,Palominas,0,2018,\N,\N,"Action,Drama,Western"
 movie,Gemini Man,Gemini Man,0,2019,\N,\N,"Action,Drama,Sci-Fi"
@@ -710,7 +709,7 @@ movie,Tied to a Chair,Tied to a Chair,0,2011,\N,94,Comedy
 short,The Small Assassin,The Small Assassin,0,2011,\N,16,"Mystery,Short,Thriller"
 tvEpisode,Baby on Board,Baby on Board,0,2010,\N,\N,"Comedy,Romance"
 movie,Beautiful Girl,Beautiful Girl,0,2014,\N,90,Drama
-movie,The Warrior's Way,The Warrior's Way,0,2010,\N,100,"Action,Fantasy,Western"
+movie,The Warriors Way,The Warriors Way,0,2010,\N,100,"Action,Fantasy,Western"
 movie,Inseparable,Xing ying bu li,0,2011,\N,97,"Drama,Mystery"
 movie,The Descendants,The Descendants,0,2011,\N,115,"Comedy,Drama"
 tvMiniSeries,Alias Grace,Alias Grace,0,2017,2017,60,"Biography,Crime,Drama"
@@ -721,7 +720,7 @@ movie,Cold Skin,Cold Skin,0,2017,\N,108,"Adventure,Horror,Sci-Fi"
 movie,The Eagle,The Eagle,0,2011,\N,114,"Action,Adventure,Drama"
 movie,Suspiria,Suspiria,0,2018,\N,152,"Fantasy,Horror,Mystery"
 movie,The Photon Effect,The Photon Effect,0,2010,\N,102,Sci-Fi
-movie,Women's Studies,Women's Studies,0,2010,\N,96,Horror
+movie,Womens Studies,Womens Studies,0,2010,\N,96,Horror
 movie,Cody the Robosapien,Robosapien: Rebooted,0,2013,\N,86,"Adventure,Drama,Family"
 movie,Everyday,Everyday,0,2012,\N,106,Drama
 tvSeries,Unterwegs in Sachsen,Unterwegs in Sachsen,0,2018,\N,30,Documentary
@@ -750,7 +749,7 @@ video,Cross,Cross,0,2011,\N,105,"Action,Fantasy"
 movie,Unfinished Song,Song for Marion,0,2012,\N,90,"Comedy,Drama,Music"
 movie,Aaj Kal,Aaj Kal,0,2010,\N,90,"Comedy,Romance"
 movie,Camp Hell,Camp Hell,0,2010,\N,99,"Drama,Horror"
-movie,Caris' Peace,Caris' Peace,0,2011,\N,76,Documentary
+movie,Caris Peace,Caris Peace,0,2011,\N,76,Documentary
 movie,Parental Guidance,Parental Guidance,0,2012,\N,105,"Comedy,Family"
 movie,Beyond the Barbed Wire: An Artist View of the Holocaust,Beyond the Barbed Wire: An Artist View of the Holocaust,0,2010,\N,68,"Documentary,War"
 video,Einstein Pals,Einstein Pals,0,2011,\N,\N,Family
@@ -797,7 +796,7 @@ movie,Boyhood,Boyhood,0,2014,\N,165,Drama
 movie,Costa Rica 3D,Costa Rica 3D,0,2019,\N,82,"Adventure,Documentary"
 movie,The Ascension,The Ascension,0,2011,\N,93,"Drama,Horror"
 movie,The Vampires of Zanzibar,The Vampires of Zanzibar,0,2010,\N,106,"Comedy,Horror,Musical"
-movie,For Christ's Sake,For Christ's Sake,0,2010,\N,\N,Comedy
+movie,For Christs Sake,For Christs Sake,0,2010,\N,\N,Comedy
 tvEpisode,Engineering Disasters: New Orleans,Engineering Disasters: New Orleans,0,2013,\N,\N,"Documentary,History"
 movie,Water for Elephants,Water for Elephants,0,2011,\N,120,"Drama,Romance"
 movie,Adult World,Adult World,0,2013,\N,97,"Comedy,Drama"
@@ -808,7 +807,7 @@ movie,Cavaliers seuls,Cavaliers seuls,0,2010,\N,\N,Documentary
 movie,Sunburnt Angels,Sunburnt Angels,0,2011,\N,119,"Comedy,Crime"
 movie,House of Good and Evil,House of Good and Evil,0,2013,\N,108,"Horror,Thriller"
 movie,Midnight Son,Midnight Son,0,2011,\N,88,Horror
-movie,The Two Deaths of Quincas Wateryell,Quincas Berro d'√Ågua,0,2010,\N,104,"Comedy,Drama"
+movie,The Two Deaths of Quincas Wateryell,Quincas Berro d√Ågua,0,2010,\N,104,"Comedy,Drama"
 movie,Habana Eva,Habana Eva,0,2010,\N,106,"Comedy,Romance"
 tvEpisode,More Ice,More Ice,0,2015,\N,\N,"Documentary,History"
 tvEpisode,Yard Tech,Yard Tech,0,2013,\N,\N,"Documentary,History"
