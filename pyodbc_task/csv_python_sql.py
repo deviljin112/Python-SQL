@@ -38,6 +38,7 @@ class SQLMovies(DatabaseConnect):
         query = f"CREATE TABLE {table_name} ({', '.join([f'{str(a)} {b}' for a, b in (zip(columns, columns_data))])})"
         with self.cursor.execute(query):
             print("Created table successfully!")
+        self.cursor.commit()
 
     def insert_data(self, table_name, columns, data):
         success = True
@@ -56,6 +57,7 @@ class SQLMovies(DatabaseConnect):
                 success = False
         if success:
             print("Data Inserted Successfully!")
+            self.cursor.commit()
         else:
             print("Data Insertion Failed... Please try again!")
 
@@ -88,33 +90,30 @@ class UserInteractions(SQLMovies):
         query = f"SELECT * FROM {table_name}"
         with self.cursor.execute(query):
             row = self.cursor.fetchone()
-            while True:
-                if row:
-                    print(", ".join(row))
-                    row = self.cursor.fetchone()
-                else:
-                    break
+            while row:
+                print(f"{', '.join([str(a) for a in row])}")
+                row = self.cursor.fetchone()
 
     def find(self, table_name, movie_name):
         query = f"SELECT * FROM {table_name}"
         with self.cursor.execute(query):
             row = self.cursor.fetchone()
-            while True:
-                if row:
-                    if movie_name in row:
-                        print(", ".join(row))
-                        break
-                    else:
-                        row = self.cursor.fetchone()
-                else:
+            while row:
+                if movie_name in row:
+                    print(f"{', '.join([str(a) for a in row])}")
                     break
+                else:
+                    row = self.cursor.fetchone()
 
     def add_movie(self, table_name, column, data):
         query = (
             f"INSERT INTO {table_name} ({', '.join(column)}) VALUES ({', '.join(data)})"
         )
+        print(query)
         with self.cursor.execute(query):
             print("Successfully Insertted The Movie!")
+
+        self.cursor.commit()
 
 
 class CSVManager(UserInteractions):
@@ -136,16 +135,15 @@ def main():
     except:
         previously_executed = False
 
-    print(previously_executed)
-
     movies = test.get_movie_data()
     column = movies[0]
     movie_data = movies[1:]
     column_data = test.column_data(movie_data[0])
 
+    for i in range(len(column)):
+        column[i] = test.check_alphabetic_input(column[i])
+
     if not previously_executed:
-        for i in range(len(column)):
-            column[i] = test.check_alphabetic_input(column[i])
 
         try:
             test.create_table(table_name, column, column_data)
@@ -184,12 +182,17 @@ Submitting each column with ENTER
             )
             user_data = []
             for i in range(len(column)):
+                print(column[i], column_data[i])
                 user_input = input("=> ")
 
                 if "INT" in column_data[i]:
                     user_input = int(user_input)
 
+                user_input = f"'{user_input}'"
+
                 user_data.append(user_input)
+
+            test.add_movie(table_name, column, user_data)
         elif choice.lower() == "exit":
             break
         else:
