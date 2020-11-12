@@ -109,7 +109,6 @@ class UserInteractions(SQLMovies):
         query = (
             f"INSERT INTO {table_name} ({', '.join(column)}) VALUES ({', '.join(data)})"
         )
-        print(query)
         with self.cursor.execute(query):
             print("Successfully Insertted The Movie!")
 
