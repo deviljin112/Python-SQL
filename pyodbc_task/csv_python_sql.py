@@ -49,16 +49,8 @@ class SQLMovies(DatabaseConnect):
                     else:
                         movie[i] = f"'{movie[i]}'"
 
-                        if "automne" in movie[i]:
-                            movie[i].replace("d'a", "da")
-
-
-                if "sacre" in movie[i]:
-                    print(movie)
-
             query = f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES ({', '.join(movie)})"
-            # self.cursor.execute(query)
-
+            self.cursor.execute(query)
         if success:
             print("Data Inserted Successfully!")
         else:
