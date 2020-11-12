@@ -194,4 +194,50 @@ Acceptance Criteria
 
 ### Full Breakdown
 
-Similarly to task 1 and 2 the parent class is the connection initialised.
+Similarly to Task 1 and 2 the parent class is the connection initialiser. This class is extended by Table initialiser, which contains all the building queries to create the csv table, insert the data correctly, as well as some essential function that manipulate the data for it to be insertted correctly.
+
+```python
+def create_table(self, table_name, columns, columns_data):
+    # Zip is used to combine the columns with column_data as one string
+    query = f"CREATE TABLE {table_name} ({', '.join([f'{str(a)} {b}' for a, b in (zip(columns, columns_data))])})"
+    with self.cursor.execute(query):
+        print("Created table successfully!")
+    self.cursor.commit()
+```
+
+This is an example of one function that combines the column list which contains all the `Column` name with `Column_data`. It uses `zip()` which combines the `columns` each index with `columns_data` index. It returns a tuple of the two values. Example: `columns[0]` value is put together with `columns_data[0]` value creating a tuple as `(a, b)` where `a = columns` and `b = columns_data`.
+</br>
+The next class is a child of the initialiser class. This class contains all the user interactions like displaying all data, finding specific movie, and adding a movie to the database.
+
+```python
+# Finds selected movie
+def find(self, table_name, movie_name):
+    # Selects all data
+    query = f"SELECT * FROM {table_name}"
+    with self.cursor.execute(query):
+        row = self.cursor.fetchone()
+        while row:
+            # Iterates through all rows and checks if the movie name is inside of the list
+            if movie_name in row:
+                print(f"{', '.join([str(a) for a in row])}")
+                break
+            else:
+                row = self.cursor.fetchone()
+```
+
+This function pulls all the fields from the database, then checks if the `movie_name` is anywhere in the row, as the title can be within either `originalTitle` or `primaryTitle`. Once found, it returns the entire row, in a more user-friendly string and breaks the loop to save resources if there is a lot of data in the table.
+</br>
+Last class is the CSV loader. This class opens the .csv file, and by using the `csv` module it iterates over each row which is then returned as a list.
+
+```python
+class CSVManager(UserInteractions):
+    def get_movie_data(self):
+        output = []
+        with open("imdbtitles.csv", "r") as movie_data:
+            data = csv.reader(movie_data)
+            for row in data:
+                output.append(row)
+        return output
+```
+
+The remaining code is mostly prints and inputs for user interactions with ifs to control which function is called and executed. There is also some stealthly executed function which trigger the above classes to initialise and prepare the program for the user.
